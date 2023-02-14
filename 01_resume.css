@@ -1,0 +1,156 @@
+body {
+    background: rgb(210, 207, 207);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+img{
+    padding-left: 10px;
+}
+.left {
+    float: left;
+    padding-top:0px;
+    
+ }
+h3{
+    text-decoration: underline;
+    padding: 10px;
+    margin-left: 40px;
+}
+img {
+    margin: 10px; /* поля вокруг картинки в 10px */
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+    margin-left: 2px;
+    }
+    p {
+    padding: 5px; /* отступы в контейнере абзаца в 5px */
+    }
+   
+    
+table{
+    line-height: 18px;
+}
+
+#header .card {
+margin-bottom: 20px;
+}
+a{
+    color: gray;
+}
+
+.hobby{
+    border: 1px solid rgb(221, 240, 117);
+    background: rgb(230, 230, 227);
+    padding: 40px;
+    margin-left:405px ;
+    margin-right: 150px;
+    border-radius: 30px;
+}
+
+.experience {
+    background: #e771d3;
+    border-style: 1px solid #e543ca;
+    margin-left:5px ;
+    margin-right: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    opacity: 0.7;
+}
+
+
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color:blue
+}
+
+a:visited{
+    color: rebeccapurple;
+}
+
+.btn{
+    background: #333;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity:0.8;
+}
+
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list li{
+    margin-bottom: 10px;
+}
+
+.table{
+    width: 50%;
+}
+
+.table td{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.table td:hover{
+    background: grey;
+}
+
+.form h3{
+    text-align: center;
+}
+
+.form-row{
+margin-bottom: 10px;
+display: flex;
+
+}
+
+.form-row .form-group{
+    /*display: inline-block; */
+    margin-right: 200px;
+    width: 50%;
+    /*width: calc(50%-20px);*/
+}
+
+.form-row .form-group:last-child {
+margin-right: 0;
+}
+
+
+.form-group label{
+display: block;
+font-size: 14px;
+color: gray;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family:inherit ;
+}
